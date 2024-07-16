@@ -1,0 +1,14 @@
+// Base
+@import './base/reset';
+@import './base/mixins';
+@import './base/base';
+@import './base/container';
+
+// Секции
+@import './blocks/sticky-footer';
+@import './blocks/promo';
+@import './blocks/buttons';
+@import './blocks/product';
+@import './blocks/reviews';
+@import './blocks/cta';
+@import './blocks/form';

@@ -1,0 +1,20 @@
+.button,
+.button a {
+	display: block;
+	padding: 15px 40px;
+	border: 1px solid #3d4dda;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #3d4dda;
+	transition: all 0.2s ease-in;
+
+	@include mobile {
+		padding: 10px 30px;
+	}
+
+	&:hover {
+		background-color: #5a68e254;
+		color: #000;
+	}
+}
